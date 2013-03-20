@@ -46,7 +46,7 @@ function GetBMI(weight, size)
 
 /**
  * Function to do the calculations. 
- * Reads and writes the parameters from the added form; see bmr_bmi_calc_form.js.
+ * Reads and writes the parameters from the added form; see bmi_bmr_calc_form.js.
  */
 function CalcIt()
 {
