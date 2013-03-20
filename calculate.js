@@ -1,1 +1,1 @@
-/* PUBLIC DOMAIN */
+/* OpenSource with GPL*/
