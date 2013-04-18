@@ -8,6 +8,8 @@
 
 /**
  * Function to get the BMR by values.
+ * Formula by wikipedia:
+ * http://en.wikipedia.org/wiki/Basaltabolic_rate#The_Harris-Benedict_equations
  * @param sex String gender may be m(ale) or f(emale) - single letter
  * @param weight Mixed weight in kg
  * @param size Mixed size in m
@@ -18,7 +20,7 @@ function GetBMR(sex, weight, size, age)
 {
 	var bmr = 0;
 	
-	// formula by wikipedia:
+	// formula from en.wikipedia.org:
 	// http://en.wikipedia.org/wiki/Basal_metabolic_rate#The_Harris-Benedict_equations
 	
 	if (sex == "m")
@@ -46,7 +48,7 @@ function GetBMI(weight, size)
 
 /**
  * Function to do the calculations. 
- * Reads and writes the parameters from the added form; see bmi_bmr_calc_form.js.
+ * Reads and writes the parameters from the added form; see bmr_bmi_calc_form.js.
  */
 function CalcIt()
 {
