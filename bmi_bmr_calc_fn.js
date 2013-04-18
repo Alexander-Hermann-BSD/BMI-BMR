@@ -9,7 +9,7 @@
 /**
  * Function to get the BMR by values.
  * Formula by wikipedia:
- * http://en.wikipedia.org/wiki/Basaltabolic_rate#The_Harris-Benedict_equations
+ * http://en.wikipedia.org/wiki/Basalmetabolic_rate#The_Harris-Benedict_equations
  * @param sex String gender may be m(ale) or f(emale) - single letter
  * @param weight Mixed weight in kg
  * @param size Mixed size in m
